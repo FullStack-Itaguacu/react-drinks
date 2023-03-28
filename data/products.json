@@ -69,6 +69,41 @@
       "price": 4.99,
       "description": "Spiced tea with steamed milk and a touch of sweetness.",
       "image": "https://api.lorem.space/image/drink?w=150&h=150"
+    },
+    {
+      "id": 11,
+      "name": "Iced Coffee",
+      "price": 3.99,
+      "description": "Freshly brewed coffee served over ice, perfect for a hot day.",
+      "image": "https://api.lorem.space/image/drink?w=150&h=150"
+    },
+    {
+      "id": 12,
+      "name": "Matcha Latte",
+      "price": 5.99,
+      "description": "Green tea powder mixed with steamed milk and a touch of sweetness.",
+      "image": "https://api.lorem.space/image/drink?w=150&h=150"
+    },
+    {
+      "id": 13,
+      "name": "Hot Chocolate",
+      "price": 4.49,
+      "description": "Rich and creamy hot chocolate made with premium chocolate.",
+      "image": "https://api.lorem.space/image/drink?w=150&h=150"
+    },
+    {
+      "id": 14,
+      "name": "Fruit Smoothie",
+      "price": 5.99,
+      "description": "A refreshing blend of fresh fruits and yogurt.",
+      "image": "https://api.lorem.space/image/drink?w=150&h=150"
+    },
+    {
+      "id": 15,
+      "name": "Iced Tea",
+      "price": 2.99,
+      "description": "Refreshing iced tea made with freshly brewed tea and a hint of lemon.",
+      "image": "https://api.lorem.space/image/drink?w=150&h=150"
     }
   ]
 }

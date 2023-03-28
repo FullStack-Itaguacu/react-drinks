@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Outlet } from "react-router-dom";
 import { Header } from "./components/Header/Header";
 import { Home } from "./pages/Home/Home";
 import { Products } from "./pages/Products/Products";
@@ -17,9 +18,7 @@ export const App = () => {
   return (
     <>
       <Header />
-      <Home />
-      <Products productList={products} />
-      <UserProfile />
+      <Outlet />
     </>
   );
 };
