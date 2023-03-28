@@ -1,23 +1,10 @@
 import React from "react";
-import { useReducer, useState } from "react";
-import styles from "./Profile.module.css";
-import { initialState, funcaoReducer } from "./reducer";
+import { useState } from "react";
 
 export const UserProfile = () => {
   const [pessoa, dispatch] = useState({
     nome: "Michael Nascimento",
-    idade: 19,
-    profissao: "Desenvolvedor",
-    bio: "Bora bio!",
-    data_alteracao: null,
   });
-  function mudarNome() {
-    dispatch({ tipo: "mudar nome", valor: "Michael" });
-  }
-
-  function mudarIdade() {
-    dispatch({ tipo: "mudar idade", valor: 20 });
-  }
 
   return (
     <div className="profile__container">
