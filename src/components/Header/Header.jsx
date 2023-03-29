@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
+import { useProducts } from "../../contexts/context";
 
 export const Header = () => {
+  const context = useProducts();
+
   return (
     <header className="header__container">
       <div className="header__logo">
@@ -19,6 +22,7 @@ export const Header = () => {
           </li>
         </ul>
       </nav>
+      <div>{context.products.length} produto(s) disponível(is)</div>
     </header>
   );
 };
