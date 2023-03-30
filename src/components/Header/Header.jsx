@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <header className="header__container">
       <div className="header__logo">
-        <h1>App Exemplo</h1>
+        <h1 className="header__page-title">Drinks.com</h1>
       </div>
       <nav className="header__navigation">
         <ul className="header__navlinks">
