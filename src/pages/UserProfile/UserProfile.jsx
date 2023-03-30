@@ -1,9 +1,12 @@
 import React from "react";
 import { useState } from "react";
+import { Counter } from "../../components/Counter";
+import { Orders } from "../../components/Orders/Orders";
 
 export const UserProfile = () => {
-  const [pessoa, dispatch] = useState({
+  const [pessoa, setPessoa] = useState({
     nome: "Michael Nascimento",
+    gihub: "https://github.com/mikansc.png",
   });
 
   return (
@@ -18,10 +21,7 @@ export const UserProfile = () => {
         </div>
       </div>
       <div className="profile__body">
-        <div className="profile__orders">
-          <h2>Últimos pedidos</h2>
-          <div className="profile__orders-container"></div>
-        </div>
+        <Orders />
       </div>
     </div>
   );
