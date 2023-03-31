@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import { Counter } from "../../components/Counter";
 import { Orders } from "../../components/Orders/Orders";
 
 export const UserProfile = () => {
